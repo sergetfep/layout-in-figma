@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(30, 141, 255, 0.5);
+  background-image: url("https://i.postimg.cc/13RzdN4v/Saly-1.png");
+  background-repeat: no-repeat;
+  background-position: 700px 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1196px;
+  width: 100%;
+  gap: 200px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  height: 83px;
+  margin-top: 43px;
+  border-radius: 20px;
+}
+
+.space {
+  flex: 1;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.image {
+  margin: -60px;
+  max-width: 100%;
+  max-height: 100%;
+  scale: 150%;
+}
+
+.logo {
+  padding-left: 93px;
+  font-weight: bold;
+  margin-right: 250px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+.font-size-24 {
+  font-size: 14px;
+}
+
+label {
+  font-size: 13px;
+  color: gray;
+}
+
+.sign-up {
+  background-color: #fff;
+  color: #4443d0;
+  border: 1px solid #4443d0;
+  margin: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.sign-in {
+  background-color: #4443d0;
+  color: #fff;
+  border: 1px solid #4443d0;
+  margin: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}
+
+span {
+  color: #5352ed;
+}
+
+.logo {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 475px;
+  /* margin: 20px; */
+}
+
+.bold {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.container-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
+
+h2,
+p {
+  margin: 0;
+}
